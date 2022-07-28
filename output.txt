@@ -1,0 +1,43 @@
+	Back Propagation Network	
+
+		v[i][j]	
+
+	-2.67159 	0.654402 	0.711188 	0.125609 
+	2.77538 	0.18695 	-1.24401 	-4.54723 
+	1.77165 	1.04604 	-0.913056 	-1.57473 
+	2.06878 	2.0931 	-2.05115 	-1.77419 
+	0.712592 	-0.120236 	0.580644 	0.513088 
+
+		w[j][k]	
+
+		1.76521 
+		-3.38849 
+		-2.60421 
+		3.01725 
+		4.18165 
+
+train size=686 | test size=686
+
+Train Phase : 
+		confusion matrix
+	truePositive trueNegative
+	306			 380
+	falsePositive falseNegative
+	0			 0
+
+	accuracy= 100%
+	precision=0.805263
+	recall=1
+	fscore=0.892128
+
+Test Phase : 
+		confusion matrix
+	truePositive trueNegative
+	304			 382
+	falsePositive falseNegative
+	0			 0
+
+	accuracy= 100%
+	precision=0.795812
+	recall=1
+	fscore=0.886297
